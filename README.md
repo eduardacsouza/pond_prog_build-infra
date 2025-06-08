@@ -75,7 +75,7 @@ O ambiente Terraform foi inicializado com o comando:
 ```bash
 terraform init
 ```
-![Terraform Init](imagens\terraform_init.png)
+![Terraform Init](imagens/terraform_init.png)
 
 ### **2.3 Validação da Configuração**
 
@@ -84,7 +84,7 @@ Foi realizada a validação do código para garantir sua consistência:
 ```bash
 terraform validate
 ```
-![Terraform Validate](imagens\terraform_validate.png)
+![Terraform Validate](imagens/terraform_validate.png)
 
 ### **2.4 Aplicação**
 A aplicação do plano foi feita com:
@@ -92,11 +92,11 @@ A aplicação do plano foi feita com:
 ```bash
 terraform apply
 ```
-![Terraform Apply](imagens\terraform_apply.png)
+![Terraform Apply](imagens/terraform_apply.png)
 
 Após revisar as alterações propostas, confirmei a execução digitando `yes`.
 
-![Terraform Apply](imagens\terraform_apply2.png)
+![Terraform Apply](imagens/terraform_apply2.png)
 
 ## **3. Verificação dos Recursos Criados**
 
@@ -107,7 +107,7 @@ Para listar todos os recursos gerenciados pelo Terraform:
 ```bash
 terraform state list
 ```
-![Terraform Apply](imagens\terraform_state.png)
+![Terraform Apply](imagens/terraform_state.png)
 
 ### **3.2 Exibição Detalhada dos Recursos**
 
@@ -116,15 +116,15 @@ Para visualizar os detalhes da infraestrutura criada:
 ```bash
 terraform show
 ```
-![Terraform Show](imagens\terraform_show.png)
+![Terraform Show](imagens/terraform_show.png)
 
 ### **3.3 Verificação no Console da AWS**
 Além dos comandos Terraform, também verifiquei a criação da instância diretamente no AWS Console.
 
 - Instância EC2 executando
-![Instância AWS](imagens\instancia_aws.png)
+![Instância AWS](imagens/instancia_aws.png)
 
-- O Arquivo com o [log da instância](docs\instancia_aws.log) se encontra em: `docs/instancia_aws.log`.
+- O Arquivo com o [log da instância](docs/instancia_aws.log) se encontra em: `docs/instancia_aws.log`.
 
 ## 4. Conclusão
 A utilização do Terraform para provisionar infraestrutura na AWS oferece uma abordagem moderna, eficiente e escalável para gerenciar recursos em nuvem. Ao adotar a infraestrutura como código (IaC), torna-se possível automatizar processos, minimizar erros manuais e garantir a consistência entre diferentes ambientes.
